@@ -1,0 +1,25 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+.color{
+background: #1C3A27;
+}
+.bg_light{
+background-color: #E2EEEC;
+}
+.card_bg{
+    background-color: #00A86B;
+}
+
+.border-round{
+    border-radius: 0px 0px 0px 100px;
+}
